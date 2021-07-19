@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body h1 {
+    text-align: center;
+    padding: 1em;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    border-bottom: solid red 3px;
+}
+
+p {
+    margin: 2em;
+    font-size: 1.25em;
+}
+
+h2{
+    color: red;
+    text-decoration: underline;
+    padding: .5em;
+    border-bottom: 3px solid black;
+    /* background-color: seashell; */
+    margin: 0;
+}
+
+body h1, .nav{
+    background-color: black;
+}
+
+.nav1 {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(12% - 3px);
+    height: 100%;
+}
+
+.nav1 span {
+    font-size: large;
+    text-align: center;
+    display: block;
+    flex-basis: 100%;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding: 10px;
+    color: red;
+    border-bottom: 3px solid black;
+}
+
+.nav1 a {
+    color: red;
+    padding:1em 0 1em 0;
+    border-bottom: 3px solid black;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav1 a:hover{
+    color: black;
+    border-bottom: 3px solid red;
+}
+.content{
+    float: right;
+    width: 88%;
+    border-left: 3px solid black;
+}
+
+#floatwrapper {
+    overflow: hidden;
+    border-bottom: 3px solid black;
+}
+
+#nav2 {
+    clear: both;
+    text-align: center;
+}
+#nav2 a{
+    color: red;
+    padding: 1em;
+}
+ul{
+    margin-left: 5em;
+    list-style-type: circle;
+    color: gray;
+}
